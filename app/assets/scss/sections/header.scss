@@ -1,0 +1,43 @@
+header {
+    position: absolute;
+    width: 100%;
+    padding-top: 15px;
+
+    nav {
+        padding: 14px 5px 26px 18px;
+        display: flex;
+        justify-content: space-between;
+
+        .line {
+            width: 1px;
+            height: 24px;
+            background: rgb(12, 18, 75);
+            writing-mode: vertical-rl;
+        }
+    }
+
+    a {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        text-decoration: none;
+        font-style: normal;
+        line-height: 18px;
+        align-items: center;
+        text-align: center;
+        color: rgb(12, 18, 75);
+
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1024px) {}
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 415px) {}

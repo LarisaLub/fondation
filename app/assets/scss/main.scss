@@ -1,0 +1,44 @@
+@import "./sections/header.scss";
+@import "./sections/slaider.scss";
+@import "./sections/about.scss";
+@import "./sections/footer.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+
+
+@media (max-width: 1024px) {
+  .container {
+    width: 900px;
+  }
+}
+
+
+@media (max-width: 767px) {}
+
+@media (max-width: 415px) {
+  .flex_box {
+    text-align: center;
+    flex-direction: column;
+    width: 375px;
+  }
+
+
+}
