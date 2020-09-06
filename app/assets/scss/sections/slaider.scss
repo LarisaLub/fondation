@@ -11,6 +11,15 @@
     }
 }
 
+header .sub-menu {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+
 h4 {
     position: absolute;
     text-transform: uppercase;
@@ -19,6 +28,7 @@ h4 {
     font-size: 47px;
     font-family: Banny;
     font-style: Bold Round;
+
 }
 
 .nav_arrow {
